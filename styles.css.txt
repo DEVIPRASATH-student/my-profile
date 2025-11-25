@@ -1,0 +1,5 @@
+:root{--bg:#f6f7fb;--card:#fff}
+body{font-family:system-ui,Segoe UI,Roboto,Arial; background:var(--bg); display:flex; align-items:center; justify-content:center; height:100vh; margin:0}
+.card{background:var(--card); padding:28px; border-radius:12px; box-shadow:0 6px 24px rgba(12,20,40,0.08); text-align:center; width:320px}
+.avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;margin-bottom:12px}
+a{color:inherit; text-decoration:none; opacity:.8}
